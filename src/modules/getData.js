@@ -1,5 +1,5 @@
 const getData = () => {
-    return fetch('http://localhost:3000/goods')
+    return fetch('https://test-ed41e-default-rtdb.firebaseio.com/goods.json')
         .then((response) => {
             return response.json();
         });
