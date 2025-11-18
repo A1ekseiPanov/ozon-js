@@ -1,6 +1,6 @@
 import getData from "./getData";
 import renderGoods from "./renderGoods";
-import {searchFilter} from "./filter";
+import {searchFilter} from "./filters";
 
 const searchInput = document.querySelector('.search-wrapper_input');
 
