@@ -70,7 +70,7 @@ const cart = () => {
         const cart = localStorage.getItem('cart') ?
             JSON.parse(localStorage.getItem('cart')) : [];
 
-        postData(cart).then((data) => {
+        postData(cart).then(() => {
             localStorage.removeItem('cart');
             renderCart([]);
             counterCart.textContent = 0;
